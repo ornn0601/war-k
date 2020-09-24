@@ -6,7 +6,7 @@
   
 ---
   
-## html <meta>를 활용한 방식  
+## 1번. html <meta>를 활용한 방식  
 
 ```
 <meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
@@ -51,9 +51,7 @@
 
 ---
 
-# 그 외
-
-## URL로 컨트롤 하는 방법
+## 2번. URL로 컨트롤 하는 방법
 
 ```
 <link href="http://example.com/custom.css?ver=1.1" rel="stylesheet" type="text/css"

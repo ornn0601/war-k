@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>toggleClass</title>
+    </head>
+
+    <body>
+
+        <script>
+            jQuery(document).ready(function ($) {
+                var nav_sub_01 = $('.nav_sub_01');
+
+                $('#nav_01 .nav_menu_item_p').hover(function () {
+                    nav_sub_01.toggleClass('sub_box_on');
+                });
+            });
+        </script>
+    </body>
+
+</html>
